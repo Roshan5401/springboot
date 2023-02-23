@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http;//www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+</head>
+<body>
+	<h1>Hey this is Roshan here</h1>
+	<h2>Name of the company is </h2><h2 th:text=${name}></h2>
+	<div th:with="a=5,b=10">
+		<h1>Sum is <span th:text="${a+b}"></span></h1>
+	</div>
+</body>
+</html>
